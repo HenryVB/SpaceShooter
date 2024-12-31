@@ -1,0 +1,53 @@
+El juego de Space shooter presentado tiene las siguientes mecanicas:
+
+NOTA: En caso tenga problemas con la solucion dada, puede descargar la version full de este drive:
+https://alumnosunir-my.sharepoint.com/:f:/g/personal/henryalonso_valdivia280_comunidadunir_net/EloAOrzZwlpBj0gV4OYs3F4BWE8fy2PF-UHNzlEsfqmLGQ?e=4WWUvK
+
+1) Instrucciones
+=============
+	1.- Se muestra un menu inicial con el Boton de "Play" para iniciar el juego
+	2.- A la izquierda superior tiene el score o puntaje que acumulará por cada enemigo destruido (+100 puntos)
+	3.- A la izquierda superior tiene el tiempo transcurrido en lo que va del juego sin perder
+	4.- A la derecha superior tiene el contador de vidas. Se considera un total de 3 vidas.
+	5.- Si llega a perder las 3 vidas se mostrará el mensaje de Game Over y en cuestion de 5-10 segundos podrá volver a intentar jugar nuevamente mostrandosele el boton play
+
+2) Los personajes:
+==============
+
+	Player o Jugador 
+	================
+	- Puede moverse arriba, abajo, izquierda y derecha dentro de los limites de la pantalla
+	- Tiene doble laser o disparo
+	- Tiene un total de 3 vidas que se pueden perder si choca con el enemigo o recibe un disparo de este
+
+	Enemigo
+	=======
+	- Se mueve verticalmente desde arriba hacia abajo
+	- Dispara siempre buscando al jugador (Puede ser de forma vertical como un disparo en diagonal siempre hacia adelante)
+	- Se crean multiples enemigos desde la parte superior de la pantalla
+
+3) Efectos Especiales
+==================
+	Sonidos
+	=======
+	- Para la musica de fondo
+	- Para el disparo del jugador
+	- Para el impacto o colision (Explosion)
+	
+	Efecto Explosion
+	=========
+	- Cuando se recibe una bala o impactan las naves del enemigo y el jugador
+
+	Ambiente
+	========
+	- Se maneja un fondo donde se pueden ver diferentes planetas y estrellas de diferentes colores (similar al  paralax)
+	
+
+4) Futuras implementaciones (No se lograron realizar por tiempo  - TBD)
+===========================
+- Ganar/obtener vidas extras por puntaje acumulado
+- Más variedad de enemigos
+- Agregar obstaculos como asteroides
+- Más escenarios de juego con Jefes de por medio
+- Mayores opciones como poner pausa y reanudar
+- Manejo de más variedad de disparos para el jugador
